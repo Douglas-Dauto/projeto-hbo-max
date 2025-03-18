@@ -60,3 +60,38 @@ a {
     border-radius: 40px;
     display: block;
 }
+
+#chamada {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#promocional {
+    max-width: 300px;
+}
+
+#promocional > img {
+    max-width: 100%;
+}
+
+#acao {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+#acao > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: .1em;
+    text-align: center;
+    width: 220px;
+    align-self: center;
+}
+
+#acao > p {
+    font-size: .9em;
+    text-align: center;
+}
