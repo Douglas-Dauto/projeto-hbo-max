@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("./fonts/Gilroy-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("./fonts/Gilroy-Light.otf");
+}
+
 * {
     box-sizing: border-box;
 }
@@ -6,6 +16,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #030328;
+    font-family: "Gilroy-Light";
 }
 
 body, a {
@@ -14,14 +25,10 @@ body, a {
 
 a {
     text-decoration: none;
-}
-
-section, div {
-    border: solid 1px #fff;
+    font-family: "Gilroy-ExtraBold";
 }
 
 #apresentacao {
-    border: solid 10px #ff0000;
     display: flex;
     flex-flow: column nowrap;
     height: 100vh;
@@ -31,7 +38,6 @@ section, div {
 #barra-de-navegacao {
     display: flex;
     justify-content: space-between;
-    border: solid 5px #fff;
     padding: 8px 16px;
     background-color: #000;
     flex-flow: row wrap;
