@@ -33,6 +33,18 @@ a {
     flex-flow: column nowrap;
     height: 100vh;
     justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+#apresentacao > img {
+    z-index: -1001;
+    position: absolute;
+    height: calc(100vh + 200px);
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
 }
 
 #barra-de-navegacao {
